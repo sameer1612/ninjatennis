@@ -1,3 +1,27 @@
 body {
   background: #444;
+  margin: 0;
+  padding: 0;
+}
+
+.logo {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-51%);
+}
+
+.middle {
+  position: absolute;
+  border: 1px solid rgba(255, 208, 0, 0.5);
+  top: 6.5rem;
+  bottom: 0;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+#canvas {
+  margin: 0;
+  padding: 0;
 }
